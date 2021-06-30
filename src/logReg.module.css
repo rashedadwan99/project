@@ -1,0 +1,164 @@
+.Container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color:rgb(255, 234, 237); */
+    background-color: rgba(227,227,227,255);
+    /* background-image: linear-gradient(to bottom right, rgba(30, 29, 31, 0.205), rgb(62, 13, 77)); */
+}
+.logRegBoxes{
+    height: 60%;
+    width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+     /* background-image: linear-gradient(to bottom right, rgba(99, 15, 110, 0.205), rgb(62, 13, 77)); */
+      /* box-shadow: 5px 0px 10px  rgb(243, 13, 101);  */
+     /* background-color: white; */
+      /* background-image: linear-gradient(to bottom right, rgba(128, 0, 255, 0.205), rgb(243, 13, 101)); */
+      background-color: snow;
+     position: relative;
+     box-shadow: 5px 0px 10px rgb(61, 60, 60);
+}
+.logBox, .regBox{
+    height: 80%;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, rgba(128, 0, 255, 0.205), rgb(243, 13, 101));
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logBox:hover, .regBox:hover{
+transform: scale(1.01);
+cursor: pointer;
+outline: 1px solid rgb(243, 13, 101);
+}
+.logBox div,.regBox div{
+    /* color: snow; */
+    width: 100%;
+    background-color: snow;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px rgb(243, 13, 101);
+    font-weight: 600;
+    
+}
+.logBox img, .regBox img{
+    height: 100%;
+    width: 100%;
+}
+.loginForm,.regForm{
+    position: fixed;
+     z-index: 300;
+    background-color: white;
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* opacity:1.2;  */
+    /* border-radius:25px; */
+    /* padding-top:10px ; */
+    box-shadow: 2px 2px 2px rgb(52, 29, 73);
+    animation: translate 0.5s ease-out /*delay iteration-count direction fill-mode;*/
+}
+/* .regForm{
+    height: 90%;
+} */
+ @keyframes translate {
+     
+  0%  {transform: translate(0%,-50%) scale(0.8);}
+  100%  {transform: translate(0,0) scale(1);}
+  
+} 
+.loginForm p, .regForm p{
+margin-left: 15px;
+display:flex;
+align-items: center;
+height: 15%;
+}
+.loginForm h2,.regForm h2{
+    text-align: center;
+    width: 100%;
+    color: rgb(52, 29, 73);
+    margin-top:0px ;
+}
+.loginForm i,.regForm i{
+    transform: scale(1.9);
+}
+.loginForm input,.regForm input{
+    width:80%;
+    height: 20px;
+    border: 0.5px solid lightgray;
+    outline-style:double ;
+    outline: none;
+    margin-left: 30px;
+    font-size: 18px;
+    padding: 20px;
+}
+.loginForm button,.regForm button{
+    border: none;
+    padding: 10px;
+    background-color: rgba(99, 15, 110, 0.205);
+    margin-right: 10px;
+    width: 40%;
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    /* transition: outline 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out; */
+}
+.loginForm a,.regForm a{
+    margin: 0%;
+}
+.loginForm button:hover,.regForm button:hover{
+background-color: blueviolet ;
+box-shadow: 2px 0px 2px rgb(52, 29, 73);
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: space-between;
+    text-decoration: none;
+    text-overflow: none;
+    cursor: pointer;
+}
+.regForm .Pattern{
+    margin-left: 12%;
+    color: red;
+    font-size: 14px;
+}
+.Bearth div{
+    margin-left: 10px;
+    display: flex;
+}
+.Bearth div input{
+    width: 25%;
+    margin-left: 21px;
+}
+/*.socialIcon{ 
+    display: flex;
+     justify-content: space-around; 
+     align-items: center;
+     margin: 20px 0px;
+     width: 100%;
+  background-color: rgba(99, 15, 110, 0.205);
+  padding: 30px;
+height: 30px;}
+.regForm h2{
+    margin-bottom: 0px;
+    margin-top:10px
+} */

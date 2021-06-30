@@ -1,0 +1,82 @@
+main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:0px;
+    position: relative;
+    width:100%;
+   justify-content: center;
+   margin-top: 50px; 
+  }
+  section{
+    width: 50%;
+    background-color: white;
+    height: 100%;
+   position: relative;
+   
+  }
+  .ProfilePictureAndName{
+    border: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px lightgray;
+    background-color: #fefefe;
+  }
+  .navigationBar{
+    background-color: rgb(253, 206, 206);
+    display: flex;
+    width:100%;
+    justify-content:space-evenly;
+    align-items: center;
+    /*box-shadow:1px 1px 3px lightgray;*/
+    padding: 20px;
+   border: 1px solid lightgray;
+  }
+  .navigationBar span{
+    margin: 10px 10px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+ .navigationBar i{
+   color: white;
+   transform: scale(1.5);
+   margin-right: 5px;
+ }
+  
+  .ProfileImg{
+    height: 100%;
+    width:100px;
+    border-radius: 50%;
+    border: 2px solid rgb(253, 206, 206);
+    margin-top: 20px;
+  }
+  .About{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .UserInfo{
+    margin-bottom: 10px;
+   
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+   border: 1px solid lightgray;
+    position: relative;
+    width: 100%;
+    
+  }
+  .UserInfo i{
+    margin-left: 5px;
+    color: rgb(212, 138, 138);
+  }
+  

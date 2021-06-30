@@ -1,0 +1,103 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.logo{
+    width: 80px;
+    height: 100%;
+}
+.FirstHeader{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    /*background-image: linear-gradient(to bottom right, rgba(128, 0, 255, 0.205), rgb(243, 13, 101));*/
+    background-color: rgb(253, 206, 206);
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 300;
+}
+.FirstHeader div{
+    display: flex;
+    align-items: center; 
+}
+.FirstHeader div input{
+    height: 40px;
+    outline:none;
+    border: 1px solid lightgray;
+    width: 300px;
+}
+.RegandCart{
+display: flex;
+justify-content: space-between;
+width: 200px;
+}
+.RegandCart div i{
+ margin-right: 10px;
+ 
+}
+.SecondHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(227,227,227,255);
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-shadow: none;
+    height: 30px;
+    align-items: center;
+    position: fixed;
+    top:60px;
+    right: 0px;
+    z-index: 280;
+    border-bottom: 1px solid lightgray;
+}
+.SecondHeader i {
+    color: rgb(56, 56, 56);
+text-decoration: none;
+transform: scale(1.8);
+cursor: pointer;
+}
+.History{
+  position: fixed;
+    left: 22%;
+    top:50px;
+    border:1px solid lightblue;
+    background-color: white;  
+    z-index: 300;
+}
+.History p{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.History p:hover{
+    background-color:beige;
+    cursor: pointer;
+}
+.Notifications{
+    position: fixed;
+    right: 20%;
+    top:12%;
+    border:1px solid lightblue;
+    background-color: white;
+   
+}
+.Notifications div{
+ overflow-y: auto;
+}
+.Notifications p{
+    margin: 5px 5px;
+}
+.Notifications button{
+    margin:5px 5px;
+    border: none;
+    outline: none;
+}
+.Notifications button:hover{
+    transform: scale(1.1);
+}
